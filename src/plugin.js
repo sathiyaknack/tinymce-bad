@@ -29,6 +29,11 @@ tinymce.PluginManager.add('variable', function (editor) {
     var valid = editor.getParam('variable_valid', null);
 
     /**
+     * Get custom bad variable name
+     */
+    var replacebadVar = editor.getParam('replace_bad_variable', null);
+
+    /**
      * Get custom variable class name
      * @type {string}
      */
@@ -117,6 +122,11 @@ tinymce.PluginManager.add('variable', function (editor) {
         });
 
         var variable = prefix + cleanValue + suffix;
+
+        if (replacebadVar && invalid) {
+            cleanMappedValue = replacebadVar;
+        }
+
         return '<span class="' + className + (invalid ? "-bad" : "") + '" data-original-variable="' + variable + '" contenteditable="false">' + cleanMappedValue + '</span>';
     }
 
