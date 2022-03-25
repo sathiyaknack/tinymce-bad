@@ -1,5 +1,5 @@
 {
-  "name": "@sathiyaknack/tinymce-bad",
+  "name": "@sathiyaknack/tinymce-bad-variable",
   "version": "1.0.0",
   "description": "TinyMCE variable is a plugin that makes it easier to work with variables in text. A lot of web applications today allow users to write content with variables. Server side these variables can then be replaced with actual data. There are many large companies that use this kind of functionality but a lot of these implementations are not very user friendly.",
   "main": "index.js",
