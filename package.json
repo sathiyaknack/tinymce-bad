@@ -1,24 +1,20 @@
 {
-  "name": "icp-tinymce-variable",
-  "version": "0.9.11",
-  "license": "BSD-3-Clause",
+  "name": "@sathiyaknack/tinymce-bad",
+  "version": "1.0.0",
+  "description": "TinyMCE variable is a plugin that makes it easier to work with variables in text. A lot of web applications today allow users to write content with variables. Server side these variables can then be replaced with actual data. There are many large companies that use this kind of functionality but a lot of these implementations are not very user friendly.",
+  "main": "index.js",
   "scripts": {
-    "test": "eslint -c .eslintrc src/plugin.js",
-    "serve": "python -m SimpleHTTPServer",
-    "prepare": "uglifyjs -o src/plugin.min.js src/plugin.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/byteasc/tinymce-variable.git"
+    "url": "git+https://github.com/sathiyaknack/tinymce-bad.git"
   },
-  "description": "Make it possible to use variables in your TinyMCE editor - Fixed.",
-  "main": "src/plugin.js",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^6.6.0",
-    "uglify-js": "^3.1.0"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/byteasc/tinymce-variable/issues"
-  }
+    "url": "https://github.com/sathiyaknack/tinymce-bad/issues"
+  },
+  "homepage": "https://github.com/sathiyaknack/tinymce-bad#readme"
 }
